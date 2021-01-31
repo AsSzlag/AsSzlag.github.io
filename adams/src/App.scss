@@ -1,0 +1,13 @@
+@import "./scss/Variables.scss";
+@import "./scss/Header.scss";
+@import "./scss/About.scss";
+@import "./scss/Portfolio.scss";
+@import "./scss/Contact.scss";
+
+* {
+  background-color: darkgrey;
+}
+
+.header {
+  height: 100vh;
+}
