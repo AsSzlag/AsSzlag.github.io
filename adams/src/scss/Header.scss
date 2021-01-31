@@ -1,12 +1,20 @@
+@import "./scss/Variables.scss";
+
 ////////////////////////////////////////////////////
 //Basic Header styling
 ///////////////////////////////////////////////////
+header {
+  display: flex;
+  height: calc(100vh - 116px);
+}
+
 .Header {
   padding: 1em;
   height: 100vh;
 }
 
 nav {
+  height: 120px;
   padding: 10px;
   display: flex;
   justify-content: space-between;
@@ -25,8 +33,50 @@ nav {
   }
 
   a {
+    font-family: $font-acc;
+    font-size: 1.5em;
+    line-height: 48pt;
     display: inline-block;
     text-decoration: none;
     color: #f5f5f5;
   }
+}
+
+.tag-acc {
+  font-family: $font-acc;
+  font-size: 1.5em;
+  color: $clr-acc;
+  line-height: 48pt;
+}
+
+.header-left {
+  justify-content: space-between;
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+
+  h1 {
+    font-size: 130pt;
+    font-family: $font-prm;
+    line-height: 140pt;
+    margin: 0;
+  }
+
+  .left-upper {
+    margin: auto;
+  }
+  
+  .icons {
+    margin-top: auto;
+    margin-bottom: auto;
+    svg {
+      margin: 50px;
+    }
+  }
+}
+
+.header-right {
+  width: 50vw;
+  display: flex;
+  justify-content: center;
 }

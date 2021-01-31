@@ -11,12 +11,12 @@ const App= ()=> {
 
   return(
     <>
-    <Header />
-<Container maxWidth="xl">
-    <About />
-    <Skills />
-    <Portfolio />
-    <Contact />
+    <Container maxWidth="xl">
+      <Header />
+      <About />
+      <Skills />
+      <Portfolio />
+      <Contact />
 </Container>
     </>
   )
