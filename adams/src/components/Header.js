@@ -9,7 +9,7 @@ const Header = () => {
                 <div className="left-upper">
                     <span class="tag-acc">{"<developer>"}</span>
                     <h1>Adam S.<br/> Szlag</h1>
-                    <span class="tag-acc">{"</developer>"}</span>
+                    <span class="tag-acc tag-r">{"</developer>"}</span>
                 </div>
                 <div className="icons">
                     <a href="https://github.com/AsSzlag" target="blank">
@@ -40,7 +40,7 @@ const Header = () => {
                 </div>
                 </div>
                 <div className="header-right">
-                    <svg xmlns="http://www.w3.org/2000/svg" id="Component_2_1" width="257.914" height="786" viewBox="0 0 257.914 786">
+                    <svg xmlns="http://www.w3.org/2000/svg" id="Component_2_1"  viewBox="0 0 257.914 786">
                         <defs>
                             <style>
                                {` .cls-1{fill:#282c2d}.cls-1,.cls-3{stroke:#f5f5f5;stroke-width:2px}.cls-3,.cls-7{fill:none}.cls-4{fill:#ff6700}.cls-6{stroke:none}`}

@@ -1,3 +1,5 @@
+import Menu from "./Menu"
+
 const Nav = () => {
     return (
         <nav className="nav">
@@ -22,6 +24,7 @@ const Nav = () => {
                     <a href="#contact"><li className="nav-el">{"<contact>"}</li></a>
                 </ul>
             </div>
+            <Menu />
         </nav>
     )
 }

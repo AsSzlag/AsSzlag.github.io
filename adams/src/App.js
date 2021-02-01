@@ -3,22 +3,19 @@ import About from './components/About'
 import Skills from './components/Skills'
 import Portfolio from './components/Portfolio'
 import Contact from './components/Contact'
-import Container from '@material-ui/core/Container'
 import './App.scss'
 
 const App= ()=> {
 
 
   return(
-    <>
-    <Container maxWidth="xl">
+    <div className="container">
       <Header />
       <About />
       <Skills />
       <Portfolio />
       <Contact />
-</Container>
-    </>
+    </div>
   )
 }
 

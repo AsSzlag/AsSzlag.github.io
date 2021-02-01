@@ -19,9 +19,54 @@ body {
   background-color: $clr-snd;
 }
 
+.container {
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 a:hover {
   cursor: pointer;
 }
 ////////////////////////////////////////////////////
-//
+//Media Queries
 ///////////////////////////////////////////////////
+@media (min-width: $tablet) {
+  .container {
+    max-width: 80%;
+  }
+
+  .header-left {
+    width: 100%;
+  }
+
+  .header-right {
+    display: flex;
+    width: 40%;
+    height: 90%;
+  }
+
+  .icons {
+    svg {
+      margin: 36px;
+    }
+  }
+}
+
+@media (min-width: $desktop) {
+  .container {
+    max-width: 75%;
+  }
+
+  .icons {
+    svg {
+      margin: 48px;
+    }
+  }
+}
+
+@media (min-width: $desktop-lg) {
+  .container {
+    max-width: 70%;
+  }
+}
