@@ -22,6 +22,7 @@ nav {
 
 .navbar {
   width: 60%;
+  display: none;
 
   ul {
     display: flex;
@@ -90,11 +91,12 @@ nav {
 }
 
 .mobile-menu {
+  display: block;
   background-color: $clr-prm;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
-  width: 80vw;
+  width: 75vw;
   height: 100vh;
   z-index: 50;
 

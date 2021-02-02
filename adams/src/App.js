@@ -3,12 +3,14 @@ import About from './components/About'
 import Skills from './components/Skills'
 import Portfolio from './components/Portfolio'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
 import './App.scss'
 
 const App= ()=> {
 
 
   return(
+    <>
     <div className="container">
       <Header />
       <About />
@@ -16,6 +18,8 @@ const App= ()=> {
       <Portfolio />
       <Contact />
     </div>
+      <Footer/>
+    </>
   )
 }
 

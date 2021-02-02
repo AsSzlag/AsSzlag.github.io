@@ -28,6 +28,15 @@ body {
 a:hover {
   cursor: pointer;
 }
+
+footer {
+  display: block;
+  height: 30px;
+  width: 100%;
+  text-align: center;
+  background-color: $clr-acc;
+  margin-top: 5vh;
+}
 ////////////////////////////////////////////////////
 //Media Queries
 ///////////////////////////////////////////////////
@@ -44,6 +53,14 @@ a:hover {
     display: flex;
     width: 40%;
     height: 90%;
+  }
+
+  .navbar {
+    display: block;
+  }
+
+  .hamburger {
+    display: none;
   }
 
   .icons {
