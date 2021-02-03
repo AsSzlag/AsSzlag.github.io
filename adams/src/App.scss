@@ -13,6 +13,7 @@
 * {
   box-sizing: border-box;
   color: $clr-prm;
+  font-family: $font-snd;
 }
 
 body {
@@ -36,6 +37,28 @@ footer {
   text-align: center;
   background-color: $clr-acc;
   margin-top: 5vh;
+  bottom: 0;
+}
+
+.title {
+  color: $clr-title;
+  font-size: clamp(36pt, 8vw, 72pt);
+  font-family: $font-prm;
+}
+
+h3 {
+  margin: 0;
+}
+
+.icon {
+  transition: 0.5s ease-out;
+  overflow: visible;
+}
+
+.icon:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: ease-in-out 0.3s;
 }
 ////////////////////////////////////////////////////
 //Media Queries
@@ -67,6 +90,13 @@ footer {
     svg {
       margin: 36px;
     }
+  }
+
+  .contact-left {
+    width: 50%;
+  }
+  .contact-right {
+    width: 50%;
   }
 }
 

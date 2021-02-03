@@ -1,4 +1,5 @@
 import Menu from "./Menu"
+import { Link } from "react-scroll";
 
 const Nav = () => {
     return (
@@ -14,11 +15,11 @@ const Nav = () => {
             </div>
             <div className="navbar">
                 <ul>
-                    <a href="#header"><li className="nav-el">{"<home>"}</li></a>
-                    <a href="#about"><li className="nav-el">{"<about>"}</li></a>
-                    <a href="#skills"><li className="nav-el">{"<skills>"}</li></a>
-                    <a href="#portfolio"><li className="nav-el">{"<portfolio>"}</li></a>
-                    <a href="#contact"><li className="nav-el">{"<contact>"}</li></a>
+                    <Link to="header" smooth={true} duration={1000}  className="link"><li className="nav-el">{"<home>"}</li></Link>
+                    <Link to="about" smooth={true} duration={1000}><li className="nav-el">{"<about>"}</li></Link>
+                    <Link to="skills" smooth={true} duration={1000}><li className="nav-el">{"<skills>"}</li></Link>
+                    <Link to="portfolio" smooth={true} duration={1000}><li className="nav-el">{"<portfolio>"}</li></Link>
+                    <Link to="contact" smooth={true} duration={1000}><li className="nav-el">{"<contact>"}</li></Link>
                 </ul>
             </div>
             <Menu />

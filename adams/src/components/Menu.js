@@ -2,6 +2,7 @@ import { useState } from "react"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons'
 import {useTransition, animated} from 'react-spring'
+import { Link } from "react-scroll";
 
 
 const Menu = () => {
@@ -29,6 +30,7 @@ const Menu = () => {
 
     if(showMenu){
     }
+    const closeMenu = ()=> {setShowMenu(false); setIcon(faBars)};
     return (
         <div className="hamburger">
             <FontAwesomeIcon style={{fontSize:"2em"}}
@@ -53,11 +55,11 @@ const Menu = () => {
             style={props}>
                 <ul className="mobile-menu">
                     <h3>Menu</h3>
-                        <a href="#header"><li className="menu-el">{"<home>"}</li></a>
-                        <a href="#about"><li className="menu-el">{"<about>"}</li></a>
-                        <a href="#skills"><li className="menu-el">{"<skills>"}</li></a>
-                        <a href="#portfolio"><li className="menu-el">{"<portfolio>"}</li></a>
-                        <a href="#contact"><li className="menu-el">{"<contact>"}</li></a>
+                        <Link to="header" smooth={true} duration={1000} onClick={closeMenu}><li className="menu-el">{"<home>"}</li></Link>
+                        <Link to="about" smooth={true} duration={1000} onClick={closeMenu}><li className="menu-el">{"<about>"}</li></Link>
+                        <Link to="skills" smooth={true} duration={1000} onClick={closeMenu}><li className="menu-el">{"<skills>"}</li></Link>
+                        <Link to="portfolio" smooth={true} duration={1000} onClick={closeMenu}><li className="menu-el">{"<portfolio>"}</li></Link>
+                        <Link to="contact" smooth={true} duration={1000} onClick={closeMenu}><li className="menu-el">{"<contact>"}</li></Link>
                     </ul>
             </animated.div>)}
         </div>

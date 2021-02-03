@@ -1,0 +1,67 @@
+@import "./scss/Variables.scss";
+
+.Contact {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  padding: 1em;
+  padding-top: 3em;
+
+  .icon-flex {
+    display: flex;
+    height: auto;
+    flex-direction: column;
+
+    .icon-bar {
+      display: flex;
+      width: 100%;
+      margin-top: auto;
+      margin-bottom: 1em;
+      align-items: center;
+
+      .ico {
+        display: inline-block;
+        padding: 10px;
+        width: 48px;
+        height: 48px;
+        fill: $clr-snd;
+        background-color: $clr-prm;
+        border-radius: 50%;
+        margin-right: 2em;
+      }
+    }
+  }
+}
+
+.contact-left {
+  display: block;
+  width: 100%;
+
+  h3 {
+    text-align: center;
+  }
+}
+
+.contact-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+  .contact-svg {
+    margin: 0 auto;
+  }
+
+  .ico-r {
+    display: block;
+    padding: 10px;
+    fill: $clr-snd;
+    width: 72px;
+    height: 72px;
+    background-color: white;
+    border-radius: 50%;
+    overflow: visible;
+  }
+
+  
+}
