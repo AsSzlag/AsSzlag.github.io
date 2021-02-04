@@ -8,7 +8,7 @@ const Header = () => {
             <div className="header-left">
                 <div className="left-upper">
                     <span className="tag-acc">{"<developer>"}</span>
-                    <h1>Adam S.<br/> Szlag</h1>
+                    <h1>Adam S. Szlag</h1>
                     <span className="tag-acc tag-r">{"</developer>"}</span>
                 </div>
                 <div className="icons">
