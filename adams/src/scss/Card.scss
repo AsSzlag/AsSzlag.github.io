@@ -1,21 +1,42 @@
+.card-dash {
+  width: 300px;
+  margin: 20px;
+  z-index: 1;
+}
+
+.card-dash:hover {
+  border: 2px dashed $clr-acc;
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+
 .card-container {
   width: 300px;
+  height: 300px;
   overflow: hidden;
-  box-shadow: 0px 0px 15px -5px;
+  box-shadow: 5px 0px 20px 0px black;
   transition: 0.1s ease-out;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  z-index: 2;
+  background-color: $clr-snd;
 }
 
 .card-container:hover {
-  transform: scale(1.1);
-  box-shadow: 0px 0px 15px 0px;
+  transform: translate(20px, -15px);
 }
 
-.image-container img {
-  overflow: hidden;
-  height: 200px;
-  width: 300px;
+.image-container {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.image-container svg {
+  font-size: 48px;
+  fill: $clr-prm;
 }
 
 .card-content {
@@ -34,6 +55,11 @@
   h4 {
     font-family: $font-prm;
   }
+}
+
+.card-body p {
+  font-size: 16px;
+  font-weight: lighter;
 }
 
 .btn {

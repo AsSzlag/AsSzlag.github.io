@@ -63,6 +63,10 @@ nav {
   display: flex;
   flex-wrap: wrap;
 
+  .left-upper {
+    margin: auto;
+  }
+
   h1 {
     font-size: clamp(60pt, 8vw, 130pt);
     font-family: $font-prm;
@@ -76,6 +80,11 @@ nav {
   margin-bottom: auto;
   svg {
     margin: 24px;
+  }
+
+  .icon:hover * {
+    fill: $clr-snd;
+    stroke: $clr-acc;
   }
 }
 

@@ -1,1 +1,67 @@
 @import "./scss/Variables.scss";
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.skills-flex {
+  min-height: 370px;
+  width: 45%;
+  height: auto;
+  margin: 20px;
+  z-index: 1;
+}
+
+.hard-skills {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+#1 {
+  justify-self: end;
+}
+
+.pos-1 {
+  align-self: end;
+  justify-self: end;
+}
+
+.pos-2 {
+  align-self: center;
+  justify-self: center;
+}
+
+.pos-3 {
+  align-self: start;
+  justify-self: end;
+}
+
+.pos-4 {
+  align-self: end;
+  justify-self: start;
+}
+
+.pos-5 {
+  align-self: start;
+  justify-self: start;
+}
+
+.shard {
+  display: block;
+  font-family: $font-prm;
+  transition: ease-in-out 0.3s;
+  cursor: pointer;
+}
+
+.shard:hover {
+  transform: perspective(100px) rotateX(20deg) rotateY(-15deg) rotateZ(5deg)
+    scale(1.2);
+  padding: 5px;
+  color: $clr-acc;
+  * {
+    color: $clr-acc;
+  }
+}

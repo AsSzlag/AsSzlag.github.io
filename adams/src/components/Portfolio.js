@@ -1,27 +1,50 @@
 import Card from "./Card"
+import { FaCalculator, FaSkiing, FaTasks, FaFigma, FaIdCardAlt, FaPaperclip } from 'react-icons/fa';
 
 const Portfolio = () => {
     return (
         <div className="Portfolio" id="portfolio">
             <h3 className="title">Projects</h3>
-                <span className="tag-acc">{"<contact info>"}</span>
+                <span className="tag-acc">{"<projects>"}</span>
                 <div className="projects">
                     <Card
                         title="Calculator App"
-                        imageUrl="https://images.unsplash.com/photo-1594980596870-8aa52a78d8cd?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=925&q=80"
-                        body="Simple calculator using vanilla JS. Neumophism style"
+                        icon={<FaCalculator />}
+                        body="Simple calculator App using pure JS with neumorphism style."
                         link=""
-                        imgAlt="Calulator app"
                     />
-                    <Card />
-                    <Card />
-                    <Card />
-                    <Card />
-                    <Card />
-                    <Card />
-                    <Card />
+                    <Card 
+                        title="Ski resort"
+                       icon={<FaSkiing />}
+                        body="Ski resort based on WordPress with over 500k visiors annually"
+                        link="https://master-ski.pl/"
+                    />
+                    <Card 
+                        title="Task tracker app"
+                       icon={<FaTasks />}
+                        body="Task manager done with React. Glass UI style"
+                        link="https://pensive-newton-c39a23.netlify.app/"
+                    />
+                    <Card 
+                        title="UX designer site"
+                        icon={<FaFigma />}
+                        body="Portfolio site for UX/UI designer done with almost pure JS adn Sass."
+                        link="https://nataliaszlag.github.io/"
+                    />
+                    <Card 
+                        title="Animated Card"
+                        icon={<FaIdCardAlt />}
+                        body="Card element designed a'la Popdog, build in pure CSS"
+                        link=""
+                    />
+                    <Card 
+                        title="Local bussiness"
+                        icon={<FaPaperclip />}
+                        body="Wedding invitation bussiness site done with WordPress"
+                        link="https://kraftdesign.pl/"
+                    />
                 </div>
-                <span className="tag-acc tag-r">{"</contact info>"}</span>
+                <span className="tag-acc tag-r">{"</projects>"}</span>
         </div>
     )
 }
