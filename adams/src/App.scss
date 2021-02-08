@@ -122,10 +122,20 @@ h3 {
       margin: 48px;
     }
   }
+  .skills-flex {
+    width: 44%;
+  }
+  .soft-skills {
+    padding: 20px;
+  }
 }
 
 @media (min-width: $desktop-lg) {
   .container {
     max-width: 65%;
   }
+}
+
+@keyframes blinker {
+  50% { opacity: 0.0; }
 }
