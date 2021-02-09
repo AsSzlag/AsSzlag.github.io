@@ -27,13 +27,14 @@ const customRenderer = (tag, size, color) => (
       margin: '5px',
       padding: '5px',
       display: 'inline-block',
-      color: "white",
     }}
   >
     {tag.value}
   </span>
 )
 
-export default () => (
-  <TagCloud tags={data} minSize={1} maxSize={5} renderer={customRenderer} />
-)
+export const Tag = () =>{
+  return (
+    <TagCloud tags={data} minSize={1} maxSize={5} renderer={customRenderer} />
+  )
+}

@@ -183,3 +183,100 @@ nav {
   transform: translateX(30px);
   transition: 0.2s ease-in-out;
 }
+
+//////////////////////////////////////////////////
+//SVG animations
+/////////////////////////////////////////////////
+
+#Line_8 {
+  animation: line-up 5s infinite;
+  transition: linear;
+}
+
+#Rectangle_188 {
+  transition: ease-out 0.3s;
+}
+
+#Rectangle_188:hover {
+  stroke: $clr-acc;
+  fill: $clr-prm;
+}
+
+#Ellipse_18 {
+  animation: blink 3s infinite;
+  transition: linear;
+}
+
+#Ellipse_17 {
+  animation: travel 6s infinite;
+  transition: linear;
+}
+.filler {
+  transition: ease-out 0.3s;
+}
+.filler:hover {
+  fill: $clr-acc;
+}
+
+//////////////////////////////////////////////////
+//Keyframes
+/////////////////////////////////////////////////
+
+@keyframes line-up {
+  0% {
+    transform: translate(203.377px, 200px);
+  }
+
+  50% {
+    transform: translate(203.377px, -200px);
+  }
+
+  100% {
+    transform: translate(203.377px, 200px);
+  }
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.1;
+    fill: $clr-acc;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes travel {
+  0% {
+    transform: translate(-130px, 0px);
+    fill: $clr-acc;
+  }
+  25% {
+    transform: translate(100px, 0px);
+    fill: $clr-title;
+  }
+  50% {
+    transform: translate(100px, -260px);
+    fill: $clr-acc;
+  }
+  75% {
+    transform: translate(-130px, -260px);
+    fill: $clr-title;
+  }
+  100% {
+    transform: translate(-130px, 0px);
+    fill: $clr-acc;
+  }
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}

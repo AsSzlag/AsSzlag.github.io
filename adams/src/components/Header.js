@@ -50,16 +50,16 @@ const Header = () => {
                             <rect width="180" height="180" className="cls-6" rx="2"/>
                             <rect width="178" height="178" x="1" y="1" className="cls-7" rx="1"/>
                         </g>
-                        <path id="Line_8" fill="none" stroke="#f5f5f5" strokeDasharray="5" strokeWidth="2px" d="M0 0L0 567" transform="translate(203.377)"/>
+                        <path id="Line_8" fill="none" stroke="#f5f5f5" strokeDasharray="5" strokeWidth="2px" d="M0 0L0 567"/>
                         <path id="Line_9" d="M0 0L0 767" className="cls-3" transform="translate(190.377 19)"/>
                         <path id="Line_10" d="M0 0L0 570" className="cls-3" transform="translate(94.377 119)"/>
                         <g id="Rectangle_187" className="cls-1" transform="rotate(20 -727.333 442.742)">
-                            <rect width="160" height="160" className="cls-6" rx="2"/>
+                            <rect width="160" height="160" className="filler" rx="2"/>
                             <rect width="158" height="158" x="1" y="1" className="cls-7" rx="1"/>
                         </g>
                         <rect id="Rectangle_189" width="40" height="40" className="cls-4" rx="2" transform="rotate(20 -117.71 633.48)"/>
-                        <circle id="Ellipse_17" cx="6" cy="6" r="6" className="cls-4" transform="translate(143.377 503)"/>
-                        <circle id="Ellipse_18" cx="10" cy="10" r="10" fill="#d7d8fe" transform="translate(224.377 591)"/>
+                        <circle id="Ellipse_17" cx="149.337" cy="509" r="6" className="cls-4"/>
+                        <circle id="Ellipse_18" cx="234.337" cy="601" r="10" fill="#d7d8fe"/>
                     </svg>
 
                 </div>

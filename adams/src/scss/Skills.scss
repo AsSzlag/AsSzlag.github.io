@@ -15,7 +15,7 @@
 }
 
 .tools {
-  margin: 100px 0;
+  margin: 50px 0;
   padding: 5px;
   display: flex;
   min-width: 100%;
@@ -44,33 +44,9 @@
   transform: scale(1.1);
 }
 
-#1 {
-  justify-self: end;
-}
-
-.pos-1 {
-  align-self: end;
-  justify-self: end;
-}
-
-.pos-2 {
-  align-self: center;
-  justify-self: center;
-}
-
-.pos-3 {
-  align-self: start;
-  justify-self: end;
-}
-
-.pos-4 {
-  align-self: end;
-  justify-self: start;
-}
-
-.pos-5 {
-  align-self: start;
-  justify-self: start;
+.tag-span:hover {
+  cursor: pointer;
+  color: $clr-acc;
 }
 
 .shard {

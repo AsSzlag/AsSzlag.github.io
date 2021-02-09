@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaGithub, FaFigma, FaNpm, FaJira, FaCheck } from "react-icons/fa";
 import { SiVisualstudio } from "react-icons/si";
-import TagCloud from "./TagCloud"
+import { Tag }  from "./TagCloud.js"
 
 const Skills = () => {
     return (
@@ -18,7 +18,7 @@ const Skills = () => {
                     <span className="tag-acc tag-r">{"</hard skills>"}</span>
                 </div>
                 <div className="hard-skills skills-flex">
-                        <TagCloud />
+                        <Tag/>
                 </div>
                 <div className="tools">
                     <div className="tool t-center">TOOLS:</div>

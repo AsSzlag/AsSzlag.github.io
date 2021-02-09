@@ -4,6 +4,7 @@ import Skills from './components/Skills'
 import Portfolio from './components/Portfolio'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import ArrowUp from "./components/ArrowUp"
 import './App.scss'
 
 const App= ()=> {
@@ -19,6 +20,7 @@ const App= ()=> {
       <Contact />
     </div>
       <Footer/>
+      <ArrowUp />
     </>
   )
 }
