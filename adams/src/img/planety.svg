@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="552" height="552" viewBox="0 0 552 552">
+  <defs>
+    <filter id="Ellipse_50" x="57" y="167" width="90" height="90" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_53" x="78" y="140" width="80" height="80" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur-2"/>
+      <feFlood/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_51" x="36" y="205" width="102" height="102" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur-3"/>
+      <feFlood/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="kółka" transform="translate(-86 -2355)">
+    <g id="kółko1">
+      <g id="Ellipse_43" data-name="Ellipse 43" transform="translate(211 2480)" fill="none" stroke="#ff6700" stroke-width="1" stroke-dasharray="5 5">
+        <circle cx="161" cy="161" r="161" stroke="none"/>
+        <circle cx="161" cy="161" r="160.5" fill="none"/>
+      </g>
+      <circle id="Ellipse_54" data-name="Ellipse 54" cx="7.5" cy="7.5" r="7.5" transform="translate(488 2532)" fill="#f5f5f5"/>
+    </g>
+    <g id="kółko2">
+      <g id="kółko2-2" data-name="kółko2" transform="translate(166 2435)" fill="none" stroke="#e4e4e4" stroke-width="1">
+        <circle cx="206" cy="206" r="206" stroke="none"/>
+        <circle cx="206" cy="206" r="205.5" fill="none"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 86, 2355)" filter="url(#Ellipse_50)">
+        <circle id="Ellipse_50-2" data-name="Ellipse 50" cx="15" cy="15" r="15" transform="translate(82 192)" fill="#282c2d"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 86, 2355)" filter="url(#Ellipse_53)">
+        <circle id="Ellipse_53-2" data-name="Ellipse 53" cx="10" cy="10" r="10" transform="translate(103 165)" fill="#282c2d"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 86, 2355)" filter="url(#Ellipse_51)">
+        <circle id="Ellipse_51-2" data-name="Ellipse 51" cx="21" cy="21" r="21" transform="translate(61 230)" fill="#282c2d"/>
+      </g>
+    </g>
+    <g id="kółko3">
+      <g id="Ellipse_37" data-name="Ellipse 37" transform="translate(106 2375)" fill="none" stroke="#e4e4e4" stroke-width="1">
+        <circle cx="266" cy="266" r="266" stroke="none"/>
+        <circle cx="266" cy="266" r="265.5" fill="none"/>
+      </g>
+      <circle id="Ellipse_48" data-name="Ellipse 48" cx="20" cy="20" r="20" transform="translate(544 2801)" fill="#d7d8fe"/>
+      <circle id="Ellipse_55" data-name="Ellipse 55" cx="20" cy="20" r="20" transform="translate(86 2637)" fill="#d7d8fe"/>
+      <circle id="Ellipse_56" data-name="Ellipse 56" cx="20" cy="20" r="20" transform="translate(356 2355)" fill="#d7d8fe"/>
+      <circle id="Ellipse_52" data-name="Ellipse 52" cx="7.5" cy="7.5" r="7.5" transform="translate(588 2775)" fill="#ff6700"/>
+    </g>
+  </g>
+</svg>

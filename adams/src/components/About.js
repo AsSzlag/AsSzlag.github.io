@@ -1,4 +1,5 @@
 import Typical from 'react-typical'
+import phone from '../img/phone.png'
 
 const About = () => {
     return (
@@ -16,7 +17,7 @@ const About = () => {
             </div>
             <div className="about-right">
                 <div className="svg-bg">
-                   
+                   <img src={phone} alt="phone view"/>
 
                 </div>
             </div>

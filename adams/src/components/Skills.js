@@ -29,21 +29,38 @@ const Skills = () => {
                     <div className="tool"><FaJira className="tool-svg" /></div>
                 </div>
                 <div className="soft-skills skills-flex">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 502 502" className="circle-center">
-                    <g id="Ellipse_37" stroke="#e4e4e4" fill="none" className="circle-1">
-                        <circle cx="251" cy="251" r="251" stroke="none"/>
-                        <circle cx="251" cy="251" r="250.5" fill="none"/>
-                    </g>
-                    <g id="Ellipse_38" stroke="#e4e4e4" fill="none" className="circle-2">
-                        <circle cx="251" cy="251" r="206" stroke="none"/>
-                        <circle cx="251" cy="251" r="205.5" fill="none"/>
-                    </g>
-                    <g id="Ellipse_43" fill="none" stroke="#ff6700" strokeDasharray="5 5" className="circle-3">
-                        <circle cx="251" cy="251" r="161"  stroke="none"/>
-                        <circle cx="251" cy="251" r="160.5"  fill="none"/>
-                    </g>
-                </svg>
-                    <div className="quote">communication <br />is a key to <br />success</div>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 552 552">
+                        <g id="kolka">
+                            <g id="kolko1">
+                                <g id="Ellipse_43" fill="none" stroke="#ff6700" strokeWidth="1" strokeDasharray="5 5">
+                                    <circle cx="276" cy="276" r="161" stroke="none"/>
+                                    <circle cx="276" cy="276" r="160.5" fill="none"/>
+                                    </g>
+                                        <circle id="Ellipse_54" cx="300" cy="435" r="7.5" fill="#f5f5f5"/>
+                                    </g>
+                            <g id="kolko2">
+                                <g id="kolko2-2" fill="none" stroke="#e4e4e4" strokeWidth="1">
+                                    <circle cx="276" cy="276" r="206" stroke="none"/>
+                                    <circle cx="276" cy="276" r="205.5" fill="none"/>
+                                    <circle id="Ellipse_50-2" cx="80" cy="210" r="15" fill="#282c2d" />
+                                    <circle id="Ellipse_53-2" cx="100" cy="165" r="10" fill="#282c2d" />
+                                    <circle id="Ellipse_51-2" cx="70" cy="270" r="21" fill="#282c2d" />
+                                </g>
+                            </g>
+                            <g id="kolko3">
+                                <g id="Ellipse_37" fill="none" stroke="#e4e4e4" strokeWidth="1">
+                                    <circle cx="276" cy="276" r="266" stroke="none"/>
+                                    <circle cx="276" cy="276" r="265.5" fill="none"/>
+                                </g>
+                                    <circle id="Ellipse_48" cx="280" cy="540" r="20" fill="#d7d8fe"/>
+                                    <circle id="Ellipse_55" cx="390" cy="40" r="20" fill="#d7d8fe"/>
+                                    <circle id="Ellipse_56" cx="20" cy="200" r="20" fill="#d7d8fe"/>
+                                    <circle id="Ellipse_52" cx="460" cy="465" r="7.5" fill="#ff6700"/>
+                                </g>
+                        </g>
+    </svg>
+
+                    <div className="quote">communication <br />is a key to <br /><span className="success">success</span></div>
                 </div>
                 <div className="skills-soft-txt skills-flex">
                     <span className="tag-acc">{"<soft skills>"}</span>

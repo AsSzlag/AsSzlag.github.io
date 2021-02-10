@@ -70,7 +70,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 50px;
+  padding: 10px;
+  overflow: visible;
+  svg {
+    overflow: visible;
+  }
 }
 
 .soft-skill {
@@ -100,15 +104,38 @@
 .quote {
   position: absolute;
   text-align: center;
+  transition: 0.3s ease-in-out;
 }
 
-.circle-center {
+.quote:hover {
+  transform: scale(1.1);
+  .success {
+    color: $clr-acc;
+  }
+}
+#kolka {
+  transform-box: fill-box;
+  position: relative;
+  transform-origin: center;
+  height: auto;
+}
+
+#kolko1 {
+  transform-origin: 50% 50%;
+}
+
+#kolko1 {
   animation: rotation-right 10s infinite linear;
   transform-origin: center;
 }
 
-.circle-2 {
-  animation: rotation-left 5s infinite linear;
+#kolko2 {
+  animation: rotation-left 13s infinite linear;
+  transform-origin: center;
+}
+
+#kolko3 {
+  animation: rotation-right 7s infinite linear;
   transform-origin: center;
 }
 
