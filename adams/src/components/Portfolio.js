@@ -11,7 +11,7 @@ const Portfolio = () => {
                         title="Calculator App"
                         icon={<FaCalculator />}
                         body="Simple calculator App using pure JS with neumorphism style."
-                        link=""
+                        link="https://neumorphism-calculatorv1.netlify.app/"
                     />
                     <Card 
                         title="Ski resort"
@@ -22,8 +22,8 @@ const Portfolio = () => {
                     <Card 
                         title="Task tracker app"
                        icon={<FaTasks />}
-                        body="Task manager done with React. Glass UI style"
-                        link="https://pensive-newton-c39a23.netlify.app/"
+                        body="Task manager done with React hooks. Glass UI style."
+                        link="https://taskmanagerv01.netlify.app"e
                     />
                     <Card 
                         title="UX designer site"
@@ -35,7 +35,7 @@ const Portfolio = () => {
                         title="Animated Card"
                         icon={<FaIdCardAlt />}
                         body="Card element designed a'la Popdog, build in pure CSS"
-                        link=""
+                        link="https://animated-card-popdpgstyle.netlify.app/"
                     />
                     <Card 
                         title="Local bussiness"
