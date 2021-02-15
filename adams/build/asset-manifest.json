@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/AsSzlag.github.io/adams/static/css/main.91a20e6d.chunk.css",
-    "main.js": "/AsSzlag.github.io/adams/static/js/main.d99cec49.chunk.js",
-    "main.js.map": "/AsSzlag.github.io/adams/static/js/main.d99cec49.chunk.js.map",
-    "runtime-main.js": "/AsSzlag.github.io/adams/static/js/runtime-main.9a26956e.js",
-    "runtime-main.js.map": "/AsSzlag.github.io/adams/static/js/runtime-main.9a26956e.js.map",
-    "static/js/2.61edd104.chunk.js": "/AsSzlag.github.io/adams/static/js/2.61edd104.chunk.js",
-    "static/js/2.61edd104.chunk.js.map": "/AsSzlag.github.io/adams/static/js/2.61edd104.chunk.js.map",
-    "static/js/3.63d92490.chunk.js": "/AsSzlag.github.io/adams/static/js/3.63d92490.chunk.js",
-    "static/js/3.63d92490.chunk.js.map": "/AsSzlag.github.io/adams/static/js/3.63d92490.chunk.js.map",
-    "index.html": "/AsSzlag.github.io/adams/index.html",
-    "static/css/main.91a20e6d.chunk.css.map": "/AsSzlag.github.io/adams/static/css/main.91a20e6d.chunk.css.map",
-    "static/js/2.61edd104.chunk.js.LICENSE.txt": "/AsSzlag.github.io/adams/static/js/2.61edd104.chunk.js.LICENSE.txt",
-    "static/media/phone.115839f6.png": "/AsSzlag.github.io/adams/static/media/phone.115839f6.png"
+    "main.css": "/static/css/main.91a20e6d.chunk.css",
+    "main.js": "/static/js/main.d99cec49.chunk.js",
+    "main.js.map": "/static/js/main.d99cec49.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e13442fb.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e13442fb.js.map",
+    "static/js/2.61edd104.chunk.js": "/static/js/2.61edd104.chunk.js",
+    "static/js/2.61edd104.chunk.js.map": "/static/js/2.61edd104.chunk.js.map",
+    "static/js/3.63d92490.chunk.js": "/static/js/3.63d92490.chunk.js",
+    "static/js/3.63d92490.chunk.js.map": "/static/js/3.63d92490.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.91a20e6d.chunk.css.map": "/static/css/main.91a20e6d.chunk.css.map",
+    "static/js/2.61edd104.chunk.js.LICENSE.txt": "/static/js/2.61edd104.chunk.js.LICENSE.txt",
+    "static/media/phone.115839f6.png": "/static/media/phone.115839f6.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.9a26956e.js",
+    "static/js/runtime-main.e13442fb.js",
     "static/js/2.61edd104.chunk.js",
     "static/css/main.91a20e6d.chunk.css",
     "static/js/main.d99cec49.chunk.js"
