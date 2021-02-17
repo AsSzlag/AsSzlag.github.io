@@ -68,7 +68,6 @@ const Skills = () => {
                         <div className="soft-skill"><FaCheck /><span>communication with team members and clients</span></div>
                         <div className="soft-skill"><FaCheck />remote work and time management</div>
                         <div className="soft-skill"><FaCheck />problem solving and analytical abilities</div>
-                        <div className="soft-skill"><FaCheck />problem solving</div>
                         <div className="soft-skill"><FaCheck />english spoken and technical/documentation</div>
                         <div className="soft-skill"><FaCheck />analytical abilities</div>
                         </div>
