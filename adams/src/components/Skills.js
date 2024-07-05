@@ -12,8 +12,10 @@ const Skills = () => {
                     <span className="tag-acc">{"<hard skills>"}</span>
                         <div className="skills-txt">
                                 <p>I have developed and maintained multiple projects from scratch, some of them reach over 500k views per year.</p>
-                                <p>I specialize in webpages and apps written in React and developing whole services based on Wordpress.</p>
+                                <p>I specialize in webpages and applications written in Recat and NextJS.</p>
                                 <p>I build fast and repsonsive websites with intuitive and mobile first approach.</p>
+                                <p>I am used to Git, slacks and writing docs in Confluence</p>
+                                <p>I have basics knowledge of NodeJS/Ecpress/Python for simple back-end tasks and React native for mobile.</p>
                                 </div>
                     <span className="tag-acc tag-r">{"</hard skills>"}</span>
                 </div>
@@ -66,10 +68,11 @@ const Skills = () => {
                     <span className="tag-acc">{"<soft skills>"}</span>
                         <div className="skills-txt">
                         <div className="soft-skill"><FaCheck /><span>communication with team members and clients</span></div>
+                        <div className="soft-skill"><FaCheck />resolving conflicts between tech people and designers/business</div>
                         <div className="soft-skill"><FaCheck />remote work and time management</div>
                         <div className="soft-skill"><FaCheck />problem solving and analytical abilities</div>
                         <div className="soft-skill"><FaCheck />english spoken and technical/documentation</div>
-                        <div className="soft-skill"><FaCheck />analytical abilities</div>
+                        <div className="soft-skill"><FaCheck />understanding UX and designs systems</div>
                         </div>
                     <span className="tag-acc tag-r">{"</soft skills>"}</span>
                 </div>

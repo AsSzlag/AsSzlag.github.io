@@ -9,7 +9,7 @@ const About = () => {
                 <span className="tag-acc">{"<short info>"}</span>
                 <div className="about-txt">
                     <Typical
-                                    steps={['I am a front-end developer and chess♘ aficionado. Currently I am living in Poznań, Poland. I am a big fan of React, and animating SVGs in CSS. I have 3 years of experience in making commercial sites with WordPress and JS.', 3000]}
+                                    steps={['I am a front-end developer and chess♘ aficionado. Currently I am living in Warsaw, Poland. I am a big fan of React, GraphQl  for Api and animating SVGs in CSS. I have 5 years of experience in making commercial sites with React, NextJS or Vanilla JS. I love working in international teams and good designs', 3000]}
                                     loop={1}
                                 />
                 </div>
